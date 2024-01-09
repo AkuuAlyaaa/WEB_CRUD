@@ -1,0 +1,19 @@
+{
+    "name": "php/uas",
+    "description": "latihan membuat crud dengan php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Php\\Uas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alya Sefhia Eka Putri"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^6.1"
+    }
+}
